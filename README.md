@@ -1,6 +1,8 @@
 # aqitracker
 Air Quality Index Tracker
 
+## Live Site link:https://nitin931.github.io/airpollution.github.io/
+
 ## Hoe to use the code:
 Code is done in 3 languages. HTML for front-end, CSS for styling and JavaScript for API calling and back-end. File index.html contains all the front-end code. File style.css contains the styling code. File script.js contains the JavaScript code for back-end. API and all necessary information required to display the Air Quality Index is carried through OpenWeatherMap API. If you want to contrinute towards the project, kindly fork the repo and then contribute in the main branch. 
 
@@ -9,6 +11,15 @@ Today (05-06-2021) is World Environment Day. I hail from India and my country su
 
 ## What it does:
 This web-application takes input of geographical location from user (it can be done automatically as well as manually). Then by the help of API, the Air Quality Index of that location is provided to the user along with the exact concentration of various Air Pollutants like Carbon Monoxide, Nitrogen Monoxide, Nitrogen Dioxide, Ozone, Sulphur Dioxide, etc. Later, a user can study detailed prevention measures from the links provided in the web-application to improve Air Quality Index.
+
+![Screenshot (90)](https://user-images.githubusercontent.com/55184719/215907505-74368865-22fc-43cf-8bb5-894c3dfa8cb9.png)
+Allow access to get the exact coordinates of your location
+![Screenshot (91)](https://user-images.githubusercontent.com/55184719/215907512-5d726b7d-0eb6-4a32-90be-d86cdce658c4.png)
+Click Search and scroll down to see the results
+![Screenshot (92)](https://user-images.githubusercontent.com/55184719/215907514-b88b35b9-2524-464d-85e7-3b20a472ef30.png)
+You can see the Air quality status of your current location  all with all pollutants concentration
+![Screenshot (93)](https://user-images.githubusercontent.com/55184719/215907516-f37ab5dc-73d7-46eb-9050-333cbaca50ca.png)
+some articles and blogs to refer
 
 ## How I built it:
 I built the front-end of the application using HTML and styled it using CSS. I used openweathermap API to display Air Quality Index data based upon latitudinal and longitudinal positions as inputted by the user. 
